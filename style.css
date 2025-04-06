@@ -1,0 +1,101 @@
+/* Reset and Global */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background: #f0f0f0;
+    color: #333;
+  }
+  
+  header {
+    background: #01b386;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: rgb(85, 248, 153);
+  }
+  
+  .hero, .about, .contact {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  video {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background: #01b386;
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Contact Form */
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #0b678b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #f90;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header {
+      flex-direction: column;
+    }
+  }
+  
